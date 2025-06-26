@@ -1,0 +1,80 @@
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #76b2fe, #b69efe);
+  font-family: "Poppins", sans-serif;
+}
+
+.register-card {
+  background-color: white;
+  padding: 35px 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 360px;
+  text-align: center;
+}
+
+.register-card h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.register-card p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.register-card input,
+.register-card select,
+.register-card textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.register-card textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.register-card button {
+  width: 100%;
+  padding: 12px;
+  background-color: #539d95;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.register-card button:hover {
+  background-color: #3b7d7a;
+}
+
+.login-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #539d95;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+.msg {
+  margin-top: 10px;
+  font-size: 14px;
+  color: green;
+}

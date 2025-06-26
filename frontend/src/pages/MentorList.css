@@ -1,0 +1,63 @@
+.mentor-container {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.mentor-title {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+}
+
+.mentor-search {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5rem;
+  margin: 0 auto 1.5rem auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.mentor-loading,
+.mentor-error {
+  text-align: center;
+  font-size: 16px;
+  color: gray;
+}
+
+.mentor-error {
+  color: red;
+}
+
+.mentor-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.mentor-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 260px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.mentor-card:hover {
+  transform: scale(1.03);
+}
+
+.mentor-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.mentor-card p {
+  margin: 5px 0;
+  color: #555;
+}

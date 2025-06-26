@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #539d95 50%, #ffffff 50%);
+  color: white;
+}
+
+.auth-navbar{
+  background: #539d95;
+}
+
+.left-links a,
+.right-links a {
+  color: rgb(121, 9, 9);
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  align-items: center;
+}
